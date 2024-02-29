@@ -6,6 +6,8 @@ Say you're like me, and you want to work on some server stuff, or you want to "p
 
 The use cases are too many to list, but mine were a dev environment for doing IaC stuff.
 
+![Setup](assets/tunneling-ipv6.png "Setup")
+
 ## Premises:
 
 1. Your home internet service doesn't support IPv6 and/or some thing about it ain't right...
