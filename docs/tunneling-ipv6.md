@@ -1,5 +1,7 @@
 # Memet Bilgin's personal blog
 
+ -- DRAFT -- 
+ 
 ## Tunneling ipv6 because... "why are you doing that?", "You're doing it wrong!😠"
 
 Say you're like me, and you want to work on some server stuff, or you want to "project" your living room into the internet (i.e. you want to serve some content over ipv6)...
@@ -19,7 +21,9 @@ The use cases are too many to list, but mine were a dev environment for doing Ia
 ## What you'll need:
 
 1. Cloudflare account: I'm not shilling, but the services they offer for free are simply amazing
-1. a VPS that gives you IPv6 allocations, however parsimonious, every time you spin up a VM. I happen to use DO.
+1. a VPS that gives you IPv6 allocations, however parsimonious*, every time you spin up a VM. I happen to use DO.
+
+* this is important: many guides talk about /56 segments being handed to you by the benevolent overloards... but the setup here is good for something as small as an underouted /124 segment
 
 ## The setup
 
